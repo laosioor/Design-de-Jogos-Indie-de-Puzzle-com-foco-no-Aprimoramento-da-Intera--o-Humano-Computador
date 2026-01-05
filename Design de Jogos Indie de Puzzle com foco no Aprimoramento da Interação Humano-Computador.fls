@@ -1,7 +1,7 @@
-PWD /home/laosioor/Documentos/Aloísio-Obsidian/Faculdade/TCC/TemplatesTrabalhosIFSPSBV-master/Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador
+PWD /home/laosioor/Documentos/Aloísio-Obsidian/Faculdade/TCC/Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/laosioor/Documentos/Aloísio-Obsidian/Faculdade/TCC/TemplatesTrabalhosIFSPSBV-master/Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador/Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.tex
+INPUT /home/laosioor/Documentos/Aloísio-Obsidian/Faculdade/TCC/Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador/Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.tex
 OUTPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.log
 INPUT /usr/share/texmf-dist/tex/latex/abntex2/abntex2.cls
 INPUT /usr/share/texmf-dist/tex/latex/abntex2/abntex2.cls
@@ -531,7 +531,6 @@ INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação
 INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.toc
 INPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.toc
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbo10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
@@ -567,7 +566,6 @@ INPUT ./capitulo02RevisaoLiteratura.tex
 INPUT ./capitulo02RevisaoLiteratura.tex
 INPUT capitulo02RevisaoLiteratura.tex
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmsso17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
@@ -581,6 +579,7 @@ INPUT ./imagens/exemploQuadro.png
 INPUT ./imagens/exemploQuadro.png
 INPUT ./imagens/exemploQuadro.png
 INPUT ./imagens/exemploQuadro.png
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmri7.tfm
 INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -602,7 +601,6 @@ INPUT /usr/share/texmf-dist/tex/generic/stringenc/se-utf8.def
 INPUT /usr/share/texmf-dist/tex/generic/stringenc/se-iso-8859-1.def
 INPUT /usr/share/texmf-dist/tex/generic/stringenc/se-iso-8859-1.def
 INPUT /usr/share/texmf-dist/tex/generic/stringenc/se-iso-8859-1.def
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmri7.tfm
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
@@ -679,9 +677,7 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmri7.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmss12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmss17.pfb
-INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmssbo10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb
-INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmsso17.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmtt10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmtt12.pfb
