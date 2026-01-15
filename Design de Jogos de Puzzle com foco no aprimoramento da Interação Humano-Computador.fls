@@ -1,8 +1,8 @@
-PWD /home/laosioor/Documentos/Aloísio-Obsidian/Faculdade/TCC/Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador
+PWD /home/laosioor/Documentos/Aloísio-Obsidian/Faculdade/TCC/TemplatesTrabalhosIFSPSBV-master/Template Latex - Relatorio Tecnico - IFSP - SBV
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/laosioor/Documentos/Aloísio-Obsidian/Faculdade/TCC/Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador/Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.tex
-OUTPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.log
+INPUT /home/laosioor/Documentos/Aloísio-Obsidian/Faculdade/TCC/TemplatesTrabalhosIFSPSBV-master/Template Latex - Relatorio Tecnico - IFSP - SBV/Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.tex
+OUTPUT Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.log
 INPUT /usr/share/texmf-dist/tex/latex/abntex2/abntex2.cls
 INPUT /usr/share/texmf-dist/tex/latex/abntex2/abntex2.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/ifthen.sty
@@ -345,12 +345,12 @@ INPUT /usr/share/texmf-dist/tex/generic/iftex/ifxetex.sty
 INPUT /usr/share/texmf-dist/tex/latex/relsize/relsize.sty
 INPUT /usr/share/texmf-dist/tex/latex/relsize/relsize.sty
 INPUT /usr/share/texmf-dist/tex/latex/relsize/relsize.sty
-OUTPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.idx
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.aux
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.aux
-INPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.aux
-OUTPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.aux
-OUTPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.pdf
+OUTPUT Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.idx
+INPUT ./Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.aux
+INPUT ./Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.aux
+INPUT Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.aux
+OUTPUT Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.aux
+OUTPUT Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.pdf
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -368,11 +368,11 @@ INPUT /usr/share/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
 INPUT /usr/share/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/lscape.sty
 INPUT /usr/share/texmf-dist/tex/latex/graphics/lscape.sty
-INPUT ./pre01Capa.tex
-INPUT ./pre01Capa.tex
-INPUT ./pre01Capa.tex
-INPUT ./pre01Capa.tex
-INPUT pre01Capa.tex
+INPUT ./01Capa.tex
+INPUT ./01Capa.tex
+INPUT ./01Capa.tex
+INPUT ./01Capa.tex
+INPUT 01Capa.tex
 INPUT /usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/t1lmss.fd
@@ -381,13 +381,6 @@ INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmcsc10.tfm
-INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
-INPUT ./pre02FolhaDeRosto.tex
-INPUT ./pre02FolhaDeRosto.tex
-INPUT ./pre02FolhaDeRosto.tex
-INPUT ./pre02FolhaDeRosto.tex
-INPUT pre02FolhaDeRosto.tex
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss12.tfm
 INPUT /usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -429,120 +422,69 @@ INPUT /usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
 INPUT /usr/share/texmf-dist/tex/latex/microtype/mt-msb.cfg
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT ./pre03FichaCatalografica.tex
-INPUT ./pre03FichaCatalografica.tex
-INPUT ./pre03FichaCatalografica.tex
-INPUT ./pre03FichaCatalografica.tex
-INPUT pre03FichaCatalografica.tex
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
-INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
-INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
-INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
-INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
-INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
-INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
-INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
-INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
-INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
-INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
-INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
-INPUT ./pre04AtaDefesa.tex
-INPUT ./pre04AtaDefesa.tex
-INPUT ./pre04AtaDefesa.tex
-INPUT ./pre04AtaDefesa.tex
-INPUT pre04AtaDefesa.tex
-INPUT ./ataDefesa/exemploAtaDefesa.pdf
-INPUT ./ataDefesa/exemploAtaDefesa.pdf
-INPUT ./ataDefesa/exemploAtaDefesa.pdf
-INPUT ./ataDefesa/exemploAtaDefesa.pdf
-INPUT ./ataDefesa/exemploAtaDefesa.pdf
-INPUT ./ataDefesa/exemploAtaDefesa.pdf
-INPUT ./ataDefesa/exemploAtaDefesa.pdf
-INPUT ./ataDefesa/exemploAtaDefesa.pdf
-INPUT ./ataDefesa/exemploAtaDefesa.pdf
-INPUT ./ataDefesa/exemploAtaDefesa.pdf
-INPUT ./ataDefesa/exemploAtaDefesa.pdf
-INPUT ./pre05Dedicatoria.tex
-INPUT ./pre05Dedicatoria.tex
-INPUT ./pre05Dedicatoria.tex
-INPUT ./pre05Dedicatoria.tex
-INPUT pre05Dedicatoria.tex
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
-INPUT ./pre06Agradecimentos.tex
-INPUT ./pre06Agradecimentos.tex
-INPUT ./pre06Agradecimentos.tex
-INPUT ./pre06Agradecimentos.tex
-INPUT pre06Agradecimentos.tex
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
-INPUT ./pre07Epigrafe.tex
-INPUT ./pre07Epigrafe.tex
-INPUT ./pre07Epigrafe.tex
-INPUT ./pre07Epigrafe.tex
-INPUT pre07Epigrafe.tex
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
+INPUT ./02FolhaDeRosto.tex
+INPUT ./02FolhaDeRosto.tex
+INPUT ./02FolhaDeRosto.tex
+INPUT ./02FolhaDeRosto.tex
+INPUT 02FolhaDeRosto.tex
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr6.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmmi10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmmi8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmmi6.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmsy8.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmsy6.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT ./pre08Resumo.tex
-INPUT ./pre08Resumo.tex
-INPUT ./pre08Resumo.tex
-INPUT ./pre08Resumo.tex
-INPUT pre08Resumo.tex
+INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
+INPUT ./03FichaCatalografica.tex
+INPUT ./03FichaCatalografica.tex
+INPUT ./03FichaCatalografica.tex
+INPUT ./03FichaCatalografica.tex
+INPUT 03FichaCatalografica.tex
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
+INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
+INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
+INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
+INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
+INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
+INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
+INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
+INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
+INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
+INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
+INPUT ./fichaCatalografica/exemploFichaCatalografica.pdf
+INPUT ./04AtaDefesa.tex
+INPUT ./04AtaDefesa.tex
+INPUT ./04AtaDefesa.tex
+INPUT ./04AtaDefesa.tex
+INPUT 04AtaDefesa.tex
+INPUT ./ataDefesa/exemploAtaDefesa.pdf
+INPUT ./ataDefesa/exemploAtaDefesa.pdf
+INPUT ./ataDefesa/exemploAtaDefesa.pdf
+INPUT ./ataDefesa/exemploAtaDefesa.pdf
+INPUT ./ataDefesa/exemploAtaDefesa.pdf
+INPUT ./ataDefesa/exemploAtaDefesa.pdf
+INPUT ./ataDefesa/exemploAtaDefesa.pdf
+INPUT ./ataDefesa/exemploAtaDefesa.pdf
+INPUT ./ataDefesa/exemploAtaDefesa.pdf
+INPUT ./ataDefesa/exemploAtaDefesa.pdf
+INPUT ./ataDefesa/exemploAtaDefesa.pdf
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmss17.tfm
+INPUT ./Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.toc
+INPUT ./Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.toc
+INPUT Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.toc
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
+INPUT ./05Resumo.tex
+INPUT ./05Resumo.tex
+INPUT ./05Resumo.tex
+INPUT ./05Resumo.tex
+INPUT 05Resumo.tex
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmbx12.tfm
-INPUT ./pre09Abstract.tex
-INPUT ./pre09Abstract.tex
-INPUT ./pre09Abstract.tex
-INPUT ./pre09Abstract.tex
-INPUT pre09Abstract.tex
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.lof
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.lof
-INPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.lof
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.loq
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.loq
-INPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.loq
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.lot
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.lot
-INPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.lot
-INPUT ./pre10ListaSiglas.tex
-INPUT ./pre10ListaSiglas.tex
-INPUT ./pre10ListaSiglas.tex
-INPUT ./pre10ListaSiglas.tex
-INPUT pre10ListaSiglas.tex
-INPUT ./pre11ListaSimbolos.tex
-INPUT ./pre11ListaSimbolos.tex
-INPUT ./pre11ListaSimbolos.tex
-INPUT ./pre11ListaSimbolos.tex
-INPUT pre11ListaSimbolos.tex
-INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.toc
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.toc
-INPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.toc
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmssbx10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmmi10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmmi7.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
 INPUT ./capitulo01Introducao.tex
 INPUT ./capitulo01Introducao.tex
 INPUT ./capitulo01Introducao.tex
@@ -550,21 +492,31 @@ INPUT ./capitulo01Introducao.tex
 INPUT capitulo01Introducao.tex
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr8.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr5.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmmi10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmmi7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmmi5.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmsy5.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmr7.tfm
 INPUT /usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf-dist/tex/latex/lm/ts1lmr.fd
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ts1-lmr12.tfm
-INPUT ./capitulo02RevisaoLiteratura.tex
-INPUT ./capitulo02RevisaoLiteratura.tex
-INPUT ./capitulo02RevisaoLiteratura.tex
-INPUT ./capitulo02RevisaoLiteratura.tex
-INPUT capitulo02RevisaoLiteratura.tex
+INPUT ./capitulo02ConsideracoesGerais.tex
+INPUT ./capitulo02ConsideracoesGerais.tex
+INPUT ./capitulo02ConsideracoesGerais.tex
+INPUT ./capitulo02ConsideracoesGerais.tex
+INPUT capitulo02ConsideracoesGerais.tex
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
@@ -579,7 +531,6 @@ INPUT ./imagens/exemploQuadro.png
 INPUT ./imagens/exemploQuadro.png
 INPUT ./imagens/exemploQuadro.png
 INPUT ./imagens/exemploQuadro.png
-INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmri7.tfm
 INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -601,6 +552,7 @@ INPUT /usr/share/texmf-dist/tex/generic/stringenc/se-utf8.def
 INPUT /usr/share/texmf-dist/tex/generic/stringenc/se-iso-8859-1.def
 INPUT /usr/share/texmf-dist/tex/generic/stringenc/se-iso-8859-1.def
 INPUT /usr/share/texmf-dist/tex/generic/stringenc/se-iso-8859-1.def
+INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/ec-lmbxi10.tfm
@@ -615,52 +567,34 @@ INPUT ./imagens/metodologia_projeto.png
 INPUT ./imagens/metodologia_projeto.png
 INPUT ./imagens/metodologia_projeto.png
 INPUT ./imagens/metodologia_projeto.png
-INPUT ./capitulo04ResultadosDiscussao.tex
-INPUT ./capitulo04ResultadosDiscussao.tex
-INPUT ./capitulo04ResultadosDiscussao.tex
-INPUT ./capitulo04ResultadosDiscussao.tex
-INPUT capitulo04ResultadosDiscussao.tex
-INPUT ./capitulo05Conclusoes.tex
-INPUT ./capitulo05Conclusoes.tex
-INPUT ./capitulo05Conclusoes.tex
-INPUT ./capitulo05Conclusoes.tex
-INPUT capitulo05Conclusoes.tex
-INPUT ./capitulo06Cronograma.tex
-INPUT ./capitulo06Cronograma.tex
-INPUT ./capitulo06Cronograma.tex
-INPUT ./capitulo06Cronograma.tex
-INPUT capitulo06Cronograma.tex
-INPUT ./imagens/cronograma_projeto.png
-INPUT ./imagens/cronograma_projeto.png
-INPUT ./imagens/cronograma_projeto.png
-INPUT ./imagens/cronograma_projeto.png
-INPUT ./imagens/cronograma_projeto.png
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.bbl
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.bbl
-INPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.bbl
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.brf
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.brf
-INPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.brf
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.brf
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.brf
-OUTPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.brf
-INPUT ./pos01Apendices.tex
-INPUT ./pos01Apendices.tex
-INPUT ./pos01Apendices.tex
-INPUT ./pos01Apendices.tex
-INPUT pos01Apendices.tex
-INPUT ./pos02Anexos.tex
-INPUT ./pos02Anexos.tex
-INPUT ./pos02Anexos.tex
-INPUT ./pos02Anexos.tex
-INPUT pos02Anexos.tex
-OUTPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.lof
-OUTPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.loq
-OUTPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.lot
-OUTPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.toc
-INPUT Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.aux
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.brf
-INPUT ./Design de Jogos Indie de Puzzle com foco no Aprimoramento da Interação Humano-Computador.brf
+INPUT ./capitulo04AnaliseDosResultados.tex
+INPUT ./capitulo04AnaliseDosResultados.tex
+INPUT ./capitulo04AnaliseDosResultados.tex
+INPUT ./capitulo04AnaliseDosResultados.tex
+INPUT capitulo04AnaliseDosResultados.tex
+INPUT ./imagens/cronogramaProjeto.png
+INPUT ./imagens/cronogramaProjeto.png
+INPUT ./imagens/cronogramaProjeto.png
+INPUT ./imagens/cronogramaProjeto.png
+INPUT ./imagens/cronogramaProjeto.png
+INPUT ./capitulo05ConclusoesRecomendacoes.tex
+INPUT ./capitulo05ConclusoesRecomendacoes.tex
+INPUT ./capitulo05ConclusoesRecomendacoes.tex
+INPUT ./capitulo05ConclusoesRecomendacoes.tex
+INPUT capitulo05ConclusoesRecomendacoes.tex
+INPUT ./Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.bbl
+INPUT ./Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.bbl
+INPUT Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.bbl
+INPUT ./Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.brf
+INPUT ./Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.brf
+INPUT Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.brf
+INPUT ./Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.brf
+INPUT ./Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.brf
+OUTPUT Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.brf
+OUTPUT Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.toc
+INPUT Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.aux
+INPUT ./Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.brf
+INPUT ./Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.brf
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb
@@ -674,7 +608,6 @@ INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmr7.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmr8.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmri10.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmri12.pfb
-INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmri7.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmss12.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmss17.pfb
 INPUT /usr/share/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb

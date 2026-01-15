@@ -3,8 +3,8 @@
    	\ABNTEXchapterfont\Large\textsc{\imprimirautor}
    	\vspace{2.5cm}
    	
-    \ABNTEXchapterfont\LARGE\imprimirtitulo\ifdef{\osubtitulo}{:}{}
-                           
+   	\ABNTEXchapterfont\LARGE\textsc{\imprimirtitulo\ifdef{\osubtitulo}{:}{}}
+
     \ifdef{\osubtitulo}{\ABNTEXchapterfont\Large\imprimirsubtitulo}{}
    	\vspace{2.5cm}
    	   	
@@ -18,10 +18,12 @@
    		Orientador: \imprimirorientador
    		
         \ifdef{\ocoorientador}{
-     		\vspace{\onelineskip}
-   		
-    		Coorientador: \imprimircoorientador
+            \vspace{\onelineskip}
+               		
+       		Coorientador: \imprimircoorientador
         }{}
+        
+        
    		
    	\end{minipage}%
     \vfill
