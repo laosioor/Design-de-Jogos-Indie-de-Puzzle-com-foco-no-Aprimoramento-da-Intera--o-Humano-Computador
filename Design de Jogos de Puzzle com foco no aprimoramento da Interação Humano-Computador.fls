@@ -1,7 +1,7 @@
-PWD /home/laosioor/Documentos/Aloísio-Obsidian/Faculdade/TCC/TemplatesTrabalhosIFSPSBV-master/Template Latex - Relatorio Tecnico - IFSP - SBV
+PWD /home/laosioor/Documentos/Aloísio-Obsidian/Faculdade/TCC/Design de Jogos de Puzzle com foco no Aprimoramento da Interação Humano-Computador
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/laosioor/Documentos/Aloísio-Obsidian/Faculdade/TCC/TemplatesTrabalhosIFSPSBV-master/Template Latex - Relatorio Tecnico - IFSP - SBV/Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.tex
+INPUT /home/laosioor/Documentos/Aloísio-Obsidian/Faculdade/TCC/Design de Jogos de Puzzle com foco no Aprimoramento da Interação Humano-Computador/Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.tex
 OUTPUT Design de Jogos de Puzzle com foco no aprimoramento da Interação Humano-Computador.log
 INPUT /usr/share/texmf-dist/tex/latex/abntex2/abntex2.cls
 INPUT /usr/share/texmf-dist/tex/latex/abntex2/abntex2.cls
@@ -56,10 +56,9 @@ INPUT /usr/share/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT /usr/share/texmf-dist/tex/latex/base/shortvrb.sty
 INPUT /usr/share/texmf-dist/tex/latex/base/shortvrb.sty
-INPUT /usr/share/texmf-dist/tex/latex/textcase/textcase.sty
-INPUT /usr/share/texmf-dist/tex/latex/textcase/textcase.sty
-INPUT /usr/share/texmf-dist/tex/latex/textcase/textcase.sty
 INPUT /usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texmf-dist/tex/latex/textcase/textcase.sty
+INPUT /usr/share/texmf-dist/tex/latex/textcase/textcase.sty
 INPUT /usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/share/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -86,15 +85,9 @@ INPUT /usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 INPUT /usr/share/texmf-dist/tex/generic/bitset/bitset.sty
 INPUT /usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 INPUT /usr/share/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-INPUT /usr/share/texmf-dist/tex/generic/atbegshi/atbegshi.sty
-INPUT /usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-INPUT /usr/share/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 INPUT /usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
-INPUT /usr/share/texmf-dist/tex/latex/atveryend/atveryend.sty
-INPUT /usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
-INPUT /usr/share/texmf-dist/tex/latex/base/atveryend-ltx.sty
 INPUT /usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/share/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
@@ -109,16 +102,20 @@ INPUT /usr/share/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 INPUT /usr/share/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/share/texmf-dist/tex/generic/babel/babel.sty
 INPUT /usr/share/texmf-dist/tex/generic/babel/txtbabel.def
-INPUT /usr/share/texmf-dist/tex/generic/babel-english/english.ldf
-INPUT /usr/share/texmf-dist/tex/generic/babel-english/english.ldf
-INPUT /usr/share/texmf-dist/tex/generic/babel-english/english.ldf
-INPUT /usr/share/texmf-dist/tex/generic/babel-portuges/brazil.ldf
-INPUT /usr/share/texmf-dist/tex/generic/babel-portuges/brazil.ldf
-INPUT /usr/share/texmf-dist/tex/generic/babel-portuges/brazil.ldf
 INPUT /usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 INPUT /usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 INPUT /usr/share/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+INPUT /usr/share/texmf-dist/tex/generic/babel/locale/invalid/babel-brazil.tex
+INPUT /usr/share/texmf-dist/tex/generic/babel/locale/invalid/babel-brazil.tex
+INPUT /usr/share/texmf-dist/tex/generic/babel/locale/invalid/babel-brazil.tex
 INPUT /usr/share/texmf-dist/tex/generic/babel/locale/en/babel-en.ini
+INPUT /usr/share/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT /usr/share/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT /usr/share/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT /usr/share/texmf-dist/tex/generic/babel/locale/pt/babel-pt-BR.ini
+INPUT /usr/share/texmf-dist/tex/generic/babel-portuges/brazilian.ldf
+INPUT /usr/share/texmf-dist/tex/generic/babel-portuges/brazilian.ldf
+INPUT /usr/share/texmf-dist/tex/generic/babel-portuges/brazilian.ldf
 INPUT /usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 INPUT /usr/share/texmf-dist/tex/latex/tools/calc.sty
@@ -518,6 +515,11 @@ INPUT ./capitulo02ConsideracoesGerais.tex
 INPUT ./capitulo02ConsideracoesGerais.tex
 INPUT capitulo02ConsideracoesGerais.tex
 INPUT /usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc
+INPUT ./imagens/only-office.png
+INPUT ./imagens/only-office.png
+INPUT ./imagens/only-office.png
+INPUT ./imagens/only-office.png
+INPUT ./imagens/only-office.png
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmmi12.tfm
 INPUT /usr/share/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm
