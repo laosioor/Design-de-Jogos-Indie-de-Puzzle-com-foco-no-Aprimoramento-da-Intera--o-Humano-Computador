@@ -501,7 +501,7 @@ Complementando a definição do tópico, \citeauthorandyear{Adams2010} afirma qu
 \section{Motores de Desenvolvimento de Jogos}
 
 Para que a visão criativa de um \textit{Designer} de Jogos e toda equipe envolvida no desenvolvimento resulte em uma obra interativa, é necessário a utilização de diversas ferramentas de desenvolvimento. A principal ferramenta durante a criação de um jogo é o alicerce chamado de Motor, ou \textit{Engine}.
-No mercado, há uma infinidade de Motores de Desenvolvimento de Jogos, pagos e gratuitos. Este trabalho visa especificar apenas o Motor que será utilizado para a criação do protótipo final.
+No mercado, há uma infinidade de Motores de Desenvolvimento de Jogos desde os pagos e até os gratuitos. Este trabalho visa especificar apenas o Motor que será utilizado para a criação do protótipo final.
 
 Um Motor de Desenvolvimento nada mais é do que um ambiente completo para desenvolvimento de jogos. Os Motores, geralmente, possuem sistemas de colisão, áudio, texturas, animações, inteligência artificial e gerenciamento de memória imbutidos \cite{Gregory2018}. Antigamente, grande parte das empresas desenvolviam suas próprias \textit{Engines}, e portanto, precisavam criar suas ferramentas para renderizar gráficos, calcular física e processar áudio, por exemplo. Hoje, há uma acessibilidade maior para que novas mentes criativas possam começar a desenvolver seus jogos de forma simples utilizando ambientes de desenvolvimento de jogos gratuitos como a Unity ou o Godot, por exemplo.
 
@@ -514,7 +514,21 @@ Os Motores de Desenvolvimento mais conhecidos atualmente são:
 
 \subsection{Godot}
 
-Texto sobre o Godot.
+Godot Engine é um Motor de Desenvolvimento de Jogos gratuito e de código-fonte aberto, distribuído sob a licença MIT. Seu desenvolvimento foi iniciado de forma proprietária em 2007 por Juan Linietsky e Ariel Manzur, sendo lançado publicamente em 2014 \cite{Godot2026}. A ferramenta permite a exportação nativa de projetos para diversas plataformas, incluindo computadores, consoles, navegadores web e dispositivos móveis.
+
+O motor utiliza uma arquitetura baseada em composição de cenas e Nós, ou \texit{Nodes}, permitindo o desenvolvimento de jogos tanto 2D como 3D com sua linguagem própria chamada Godot Script. Além da estrutura principal, o software dispõe de um conjunto integrado de ferramentas que auxiliam na criação de animações, interfaces de usuário e mapeamento de cenários, conhecidos como \textit{TileMaps} na área de desenvolvimento de jogos.
+
+Inserir Figura: Interface inicial do motor Godot. Fonte: Elaborada pelo autor
+
+Um dos maiores atrativos do Godot é a sua acessibilidade e portabilidade, visto que, todo o ambiente de desenvolvimento consiste em um único arquivo executável de tamanho reduzido, dispensando a necessidade de instalação para o uso. Ademais, a Engine oferece acesso offline a toda a sua documentação oficial diretamente em seu editor de códigos, otimizando o fluxo de trabalho do desenvolvedor \cite{Godot2026}.
+
+Dentro de sua arquitetura, os \texit{Nodes} atuam como os blocos fundamentais de construção. Alguns dos Nós mais importantes e frequentemente utilizados no desenvolvimento de jogos 2D incluem:
+\begin{itemize}
+
+\item Node2D: A classe base para todos os objetos bidimensionais, fornecendo propriedades essenciais como posição, rotação e escala no espaço 2D.
+\item CharacterBody2D: Um Nó especializado para corpos físicos controlados pelo jogador ou por inteligência artificial, essencial para movimentação complexa, cálculos de física e detecção de colisões em jogos de plataforma e puzzles.
+\item Area2D: Responsável por detectar sobreposições e interações físicas no espaço bidimensional, sendo amplamente utilizado para criar áreas de gatilho (triggers), coleta de itens e zonas de dano.
+\end{itemize}
 
 \section{Exemplos do \LaTeX}
 
