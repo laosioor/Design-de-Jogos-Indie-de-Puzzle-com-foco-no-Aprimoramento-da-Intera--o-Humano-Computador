@@ -1,8 +1,69 @@
 \chapter{Análise dos Resultados}
 \label{cap:04}
 
-Relatar os resultados obtidos a partir dos experimentos e dos estudos realizados. 
+\section{Revisão bibliográfica}
 
+\subsection{Definições de Bons Designs de Quebra-Cabeça}
+
+Segundo \citeauthorandyear{GDCMenzel2016}, um dos pontos principais de um bom Quebra-Cabeça é que o jogador se divirta por meio do desafio contido no raciocínio necessário para progredir:
+\begin{citacao}
+\begin{itemize}
+    \item O jogador sente um senso de confiança e respeito vindo do designer
+    \begin{itemize}
+        \item O jogador é convidado a encontrar uma solução, não a receber uma pronta
+        \item A solução é alcançável
+    \end{itemize}
+    \item O jogador sente um senso de realização ao concluir \cite[p. 9, tradução nossa]{GDCMenzel2016}
+\end{itemize}
+\end{citacao}
+
+\citeauthorandyear{GDCMenzel2016} exemplifica o processo do jogador em resolver algum quebra-cabeça difícil. O jogador encara inicialmente o problema sem ideias do que possa fazer, assim gerando um medo momentâneo. Após isso, o jogador começa a buscar por novas informações, meios de se interagir com o mundo e, por meio da curiosidade, chega à compreensão do que deve ser feito. Por fim, o jogador se orgulha pela sua perspicácia e sente a felicidade por dominar o problema que antes parecia impossível.
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Processo de maestria em Quebra-Cabeças}
+    \includegraphics[scale=0.25]{imagens/maestria-quebra-cabeca.png}
+    \\\textbf{Fonte:} Traduzido e adaptado de \citeonline[p. 12]{GDCMenzel2016}
+    \label{fig:maestria-quebra-cabeca}
+\end{figure}
+
+\section{Desenvolvimento de Quebra-Cabeças}
+
+\citeauthorandyear{Traynor2022} desenvolveu um jogo de quebra-cabeças 2D em 2022 chamado de Patrick's Parabox. Junto ao lançamento de seu jogo, \citeauthor{Traynor2022} publicou também um guia feito com a ajuda de outros \textit{designers} de jogos para auxiliar na criação de mecânicas e fases em um jogo de quebra-cabeças.
+
+Contextualizando, Patrick's Parabox se trata de um jogo de quebra-cabeças onde o jogador controla um quadrado com olhos que deve empurrar outros quadrados amarelos inanimados para locais específicos representados por uma linha de contorno em cada fase. O principal diferencial de Patrick's Parabox está na mecânica de poder entrar em outros quadrados que também representam a própria área onde o jogador se encontra.
+
+\FloatBarrier
+\begin{figure}[!htbp]
+    \centering
+    \caption{Jogo Patrick's Parabox}
+    \includegraphics[scale=0.3]{imagens/patrick-parabox.jpg}
+    \\\textbf{Fonte:} \citeonline{steam_patrick_parabox}
+    \label{fig:imagem-patrick-parabox}
+\end{figure}
+\FloatBarrier
+
+Ao observar a Figura~\ref{fig:imagem-patrick-parabox} é possível esmiuçar a fase da seguinte forma:
+
+\begin{itemize}
+	\item O jogador se trata do quadrado com olhos que pode andar livremente para empurrar os outros dois blocos que existem no plano;
+	\item O quadrado de cor sólida — amarelo, nesse caso — deve ser posicionado no alvo que fica na parte inferior da fase;
+	\item O quadrado que apresenta o próprio interior da fase, se trata, justamente, da própria fase onde o jogador se encontra. É possível que o jogador entre neste quadrado, ou que ele empurre o outro quadrado para o interior do mesmo.
+\end{itemize}
+
+Durante o desenvolvimento de seu jogo, \citeauthorandyear{Traynor2022} utilizou um método para conseguir criar diversas fases diferentes utilizando um mesmo conjunto de mecânicas. Segundo o autor, para situações como esta, o \textit{designer} pode criar uma planilha contendo todas as mecânicas desenvolvidas, dispostas nos eixos X e Y, e descobrir quais são suas sinergias quando usadas em conjunto. Um exemplo desta ideia pode ser visto no Quadro \ref{qua:quadro-sinergia}.
+
+\FloatBarrier
+\begin{quadro}[!htbp]
+	\centering
+	\caption{Exemplo de quadro contendo as mecânicas e suas possíveis sinergias}
+	\includegraphics[scale=0.55]{imagens/quadro-sinergia.png}
+	\\\textbf{Fonte:} Elaborado pelo autor
+	\label{qua:quadro-sinergia}
+\end{quadro}
+\FloatBarrier
+
+\citeauthorandyear{Traynor2022} complementa seu guia incentivando aos \textit{designers} que tentem extremos durante o projeto e desenvolvimento de quebra-cabeças: começar fases com soluções impossíveis, mas gradualmente ir lapidando-a para haver uma solução viável; começar fases com soluções possíveis, mas fazer o oposto da anterior, e, assim que chegar em um ponto impossível, remover a última adição.
 
 \section{Resultados/Impactos}
 
