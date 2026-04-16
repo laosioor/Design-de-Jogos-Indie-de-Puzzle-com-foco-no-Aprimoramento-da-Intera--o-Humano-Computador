@@ -17,7 +17,7 @@ Segundo \citeauthorandyear{GDCMenzel2016}, um dos pontos principais de um bom Qu
 \end{itemize}
 \end{citacao}
 
-\citeauthorandyear{GDCMenzel2016} exemplifica o processo do jogador em resolver algum quebra-cabeça difícil. O jogador encara inicialmente o problema sem ideias do que possa fazer, assim gerando um medo momentâneo. Após isso, o jogador começa a buscar por novas informações, meios de se interagir com o mundo e, por meio da curiosidade, chega à compreensão do que deve ser feito. Por fim, o jogador se orgulha pela sua perspicácia e sente a felicidade por dominar o problema que antes parecia impossível.
+\citeauthorandyear{GDCMenzel2016} exemplifica o processo do jogador em resolver algum quebra-cabeça desafiador. O jogador, inicialmente, encara o problema sem ideias do que possa fazer, assim gerando um medo momentâneo. Após isso, o jogador busca por novas informações, meios de se interagir com o mundo, e, por meio da curiosidade, chega à compreensão do que deve ser feito. Por fim, o jogador se orgulha pela sua perspicácia e sente a felicidade por dominar o problema que antes parecia impossível.
 
 \begin{figure}[!htbp]
     \centering
@@ -26,6 +26,28 @@ Segundo \citeauthorandyear{GDCMenzel2016}, um dos pontos principais de um bom Qu
     \\\textbf{Fonte:} Traduzido e adaptado de \citeonline[p. 12]{GDCMenzel2016}
     \label{fig:maestria-quebra-cabeca}
 \end{figure}
+
+
+Schell, que já foi citado anteriormente neste trabalho, além de autor sobre \textit{Design} de Jogos, também é professor sobre o assunto e fundador da Schell Games, uma desenvolvedora de jogos de quebra-cabeças. \citeauthorandyear{GDCSchell2019} aponta, em uma palestra na GDC de 2019, que uma característica de um bom quebra-cabeça é o paralelismo. Isto é, o jogador, ao completar uma parte dos vários quebra-cabeças a sua disposição, acaba auxiliando na resposta do restante. Exemplos desse paralelismo fora dos jogos eletrônicos são:
+
+\begin{itemize}
+	\item Quebra-Cabeças tradicionais: Quebra-Cabeças de peças onde o objetivo do jogador é montar uma imagem com um número de peças. Aqui, o jogador toma, normalmente, o caminho de procurar primeiro as peças das quinas e, então, as bordas. Desta forma, filtram-se as possíveis peças a serem utilizadas no restante do jogo;
+	\item Palavras-Cruzadas: O objetivo do jogador é preencher todos os quadrados vazios com as respectivas palavras. Com isso, é possível preencher letras de palavras tangentes e, assim, o jogador consegue dicas de como completar o restante do quebra-cabeça.
+\end{itemize}
+
+O autor afirma que o paralelismo em jogos de quebra-cabeças, eletrônicos ou não, são úteis para manter a ânsia do jogador para o mesmo permanecer resolvendo-os. Caso o jogador fique sem ideias do que fazer em determinada parte de um jogo, basta ele olhar ao redor e procurar por outros caminhos e desafios que podem o auxiliar a completar o restante do jogo. Essa característica de \textit{game design} baseado em paralelismo pode ser utilizada em jogos eletrônicos que possuem um mapa aberto a ser explorado como o jogador preferir.
+
+\citeauthorandyear{GDCClark2019} e \citeauthorandyear{GDCMenzel2016}, utilizam, em suas definições de tipos de quebra-cabeças, duas categorias distintas:
+\begin{itemize}
+	\item Heterogêneos: são quebra-cabeças que diferem de mecânicas e ideias em cada solução e situação. Exemplos: jogos de aventura onde o jogador deve utilizar objetos encontrados pela sua jornada em locais, ou interagir com outros personagens para gerar a solução de seus problemas;
+	\item Homogêneos: são os quebra-cabeças mecânicos. O jogo cria um sistema de regras fixo: caso o jogador realize uma ação X o jogo responderá com outra ação Y. Grande parte dos jogos de quebra-cabeça fazem parte do último grupo.
+\end{itemize}
+
+Na categoria de Quebra-Cabeças Homogêneos, existem outras duas nomenclaturas apontadas por \citeauthorandyear{GDCClark2019}:
+\begin{itemize}
+	\item Procedurais: são os jogos em que toda vez que o jogador iniciá-los será uma experiência diferente da anterior. Jogos como Tetris, Campo-Minado, Paciência, etc;
+	\item Combinatórios: são os jogos que criam suas fases e desafios com base nas suas mecânicas e a combinação destas. Geralmente, todos os desafios encontrados em jogos assim são feitos a mão pelos \textit{designers} do jogo. Exemplos já citados: The Witness e Animal Well são Quebra-Cabeças Homogêneos e Combinatórios.
+\end{itemize}
 
 \section{Desenvolvimento de Quebra-Cabeças}
 
@@ -46,7 +68,7 @@ Contextualizando, Patrick's Parabox se trata de um jogo de quebra-cabeças onde 
 Ao observar a Figura~\ref{fig:imagem-patrick-parabox} é possível esmiuçar a fase da seguinte forma:
 
 \begin{itemize}
-	\item O jogador se trata do quadrado com olhos que pode andar livremente para empurrar os outros dois blocos que existem no plano;
+	\item O jogador controla o quadrado com olhos que pode andar livremente para empurrar os outros dois blocos que existem no plano;
 	\item O quadrado de cor sólida — amarelo, nesse caso — deve ser posicionado no alvo que fica na parte inferior da fase;
 	\item O quadrado que apresenta o próprio interior da fase, se trata, justamente, da própria fase onde o jogador se encontra. É possível que o jogador entre neste quadrado, ou que ele empurre o outro quadrado para o interior do mesmo.
 \end{itemize}
