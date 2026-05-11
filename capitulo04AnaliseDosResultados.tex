@@ -1,101 +1,271 @@
-\chapter{Análise dos Resultados}
+\chapter{Resultados Parciais}
 \label{cap:04}
 
-\section{Revisão bibliográfica}
+\section{Critérios de Design para o Protótipo}
 
-\subsection{Definições de Bons Designs de Quebra-Cabeça}
+Após toda a revisão bibliográfica, os critérios encontrados e definidos foram:
 
-Segundo \citeauthorandyear{GDCMenzel2016}, um dos pontos principais de um bom Quebra-Cabeça é que o jogador se divirta por meio do desafio contido no raciocínio necessário para progredir:
-\begin{citacao}
-\begin{itemize}
-    \item O jogador sente um senso de confiança e respeito vindo do designer
-    \begin{itemize}
-        \item O jogador é convidado a encontrar uma solução, não a receber uma pronta
-        \item A solução é alcançável
-    \end{itemize}
-    \item O jogador sente um senso de realização ao concluir \cite[p. 9, tradução nossa]{GDCMenzel2016}
-\end{itemize}
-\end{citacao}
+\begin{enumerate}
+	\item O aprendizado de mecânicas de forma autodidata por meio da tentativa e curiosidade do jogador;
+	\item Abordar o jogador com quebra-cabeças desafiadores que induzam uma sensação de maestria na resolução;
+	\item Níveis que não possuem uma complexidade alta;
+	\item Construir quebra-cabeças com uma curva de aprendizado que vai aumentando em dificuldade a cada desafio resolvido, mas que comecem simples.
+\end{enumerate}
 
-\citeauthorandyear{GDCMenzel2016} exemplifica o processo do jogador em resolver algum quebra-cabeça desafiador. O jogador, inicialmente, encara o problema sem ideias do que possa fazer, assim gerando um medo momentâneo. Após isso, o jogador busca por novas informações, meios de se interagir com o mundo, e, por meio da curiosidade, chega à compreensão do que deve ser feito. Por fim, o jogador se orgulha pela sua perspicácia e sente a felicidade por dominar o problema que antes parecia impossível.
+Portanto, o protótipo a ser construído seguirá esses critérios e será esmiuçado a seguir.
+
+\section{Elaboração do Protótipo}
+
+\subsection{Inspiração em Blue Prince}
+
+A concepção do protótipo que será desenvolvido neste trabalho será baseada nas Caixas Mora Jai, um brinquedo que existe diegeticamente no universo do jogo Blue Prince. As Caixas Mora Jai consistem em quebra-cabeças em formato de grade 3 × 3 contendo diversas peças. Onde cada peça possui um tipo de movimentação diferente.
 
 \begin{figure}[!htbp]
     \centering
-    \caption{Processo de maestria em Quebra-Cabeças}
-    \includegraphics[scale=0.25]{imagens/maestria-quebra-cabeca.png}
-    \\\textbf{Fonte:} Traduzido e adaptado de \citeonline[p. 12]{GDCMenzel2016}
-    \label{fig:maestria-quebra-cabeca}
+    \caption{Exemplo de Caixa Mora Jai - Blue Prince (2025)}
+    \includegraphics[scale=0.4]{imagens/caixa-mora-jai.png}
+    \\\textbf{Fonte:} Adaptado de: \citeonline{polygon_mora_jai}
+    \label{fig:caixa-mora-jai}
 \end{figure}
-
-
-Schell, que já foi citado anteriormente neste trabalho, além de autor sobre \textit{Design} de Jogos, também é professor sobre o assunto e fundador da Schell Games, uma desenvolvedora de jogos de quebra-cabeças. \citeauthorandyear{GDCSchell2019} aponta, em uma palestra na GDC de 2019, que uma característica de um bom quebra-cabeça é o paralelismo. Isto é, o jogador, ao completar uma parte dos vários quebra-cabeças a sua disposição, acaba auxiliando na resposta do restante. Exemplos desse paralelismo fora dos jogos eletrônicos são:
-
-\begin{itemize}
-	\item Quebra-Cabeças tradicionais: Quebra-Cabeças de peças onde o objetivo do jogador é montar uma imagem com um número de peças. Aqui, o jogador toma, normalmente, o caminho de procurar primeiro as peças das quinas e, então, as bordas. Desta forma, filtram-se as possíveis peças a serem utilizadas no restante do jogo;
-	\item Palavras-Cruzadas: O objetivo do jogador é preencher todos os quadrados vazios com as respectivas palavras. Com isso, é possível preencher letras de palavras tangentes e, assim, o jogador consegue dicas de como completar o restante do quebra-cabeça.
-\end{itemize}
-
-O autor afirma que o paralelismo em jogos de quebra-cabeças, eletrônicos ou não, são úteis para manter a ânsia do jogador para o mesmo permanecer resolvendo-os. Caso o jogador fique sem ideias do que fazer em determinada parte de um jogo, basta ele olhar ao redor e procurar por outros caminhos e desafios que podem o auxiliar a completar o restante do jogo. Essa característica de \textit{game design} baseado em paralelismo pode ser utilizada em jogos eletrônicos que possuem um mapa aberto a ser explorado como o jogador preferir.
-
-\citeauthorandyear{GDCClark2019} e \citeauthorandyear{GDCMenzel2016}, utilizam, em suas definições de tipos de quebra-cabeças, duas categorias distintas:
-\begin{itemize}
-	\item Heterogêneos: são quebra-cabeças que diferem de mecânicas e ideias em cada solução e situação. Exemplos: jogos de aventura onde o jogador deve utilizar objetos encontrados pela sua jornada em locais, ou interagir com outros personagens para gerar a solução de seus problemas;
-	\item Homogêneos: são os quebra-cabeças mecânicos. O jogo cria um sistema de regras fixo: caso o jogador realize uma ação X o jogo responderá com outra ação Y. Grande parte dos jogos de quebra-cabeça fazem parte do último grupo.
-\end{itemize}
-
-Na categoria de Quebra-Cabeças Homogêneos, existem outras duas nomenclaturas apontadas por \citeauthorandyear{GDCClark2019}:
-\begin{itemize}
-	\item Procedurais: são os jogos em que toda vez que o jogador iniciá-los será uma experiência diferente da anterior. Jogos como Tetris, Campo-Minado, Paciência, etc;
-	\item Combinatórios: são os jogos que criam suas fases e desafios com base nas suas mecânicas e a combinação destas. Geralmente, todos os desafios encontrados em jogos assim são feitos a mão pelos \textit{designers} do jogo. Exemplos já citados: The Witness e Animal Well são Quebra-Cabeças Homogêneos e Combinatórios.
-\end{itemize}
-
-\section{Desenvolvimento de Quebra-Cabeças}
-
-\citeauthorandyear{Traynor2022} desenvolveu um jogo de quebra-cabeças 2D em 2022 chamado de Patrick's Parabox. Junto ao lançamento de seu jogo, \citeauthor{Traynor2022} publicou também um guia feito com a ajuda de outros \textit{designers} de jogos para auxiliar na criação de mecânicas e fases em um jogo de quebra-cabeças.
-
-Contextualizando, Patrick's Parabox se trata de um jogo de quebra-cabeças onde o jogador controla um quadrado com olhos que deve empurrar outros quadrados amarelos inanimados para locais específicos representados por uma linha de contorno em cada fase. O principal diferencial de Patrick's Parabox está na mecânica de poder entrar em outros quadrados que também representam a própria área onde o jogador se encontra.
-
 \FloatBarrier
+
+Observa-se na Figura \ref{fig:caixa-mora-jai} as seguintes peças e seus movimentos:
+
+\begin{enumerate}
+	\item Peças Cinzas: qualquer espaço com coloração cinza consiste da ausência de uma peça.
+	\item Peças Verdes: se movimentam para o extremo oposto da sua posição atual. Isto é, caso haja uma peça verde no centro da linha do topo, ao clicar na peça, ela iria para o centro da linha do rodapé.
+	\item Peças Laranjas: não possuem movimento algum, porém, são utilizadas, geralmente, como peças auxiliares para outras peças. Sua mecânica é a seguinte: caso uma peça laranja esteja cercada de duas ou mais peças de outra cor, a peça laranja, ao ser clicada, se torna desta cor.
+	\item Peças Vermelhas: não possuem movimentação. Ao invés disso, ao clicar em uma peça vermelha, todas as peças brancas (5) se tornam peças pretas (6) e todas as peças pretas (6) se tornam peças vermelhas.
+	\item Peças Brancas: se multiplicam para todos os espaços vazios adjacentes. Caso não haja espaços vazios, a peça branca clicada desaparece.
+	\item Peças Pretas: se movimentam sempre para a direita, caso cheguem no final da linha voltam para o início.
+\end{enumerate}
+
+Além das peças, há também o objetivo de cada caixa. É possível observar na figura alguns símbolos nas quinas que foram circulados de branco. Cada símbolo indica qual peça precisa estar em cada uma das quinas. Os símbolos são baseados em reinos do jogo, onde cada reino possui uma cor que o representa. Neste caso, o jogador precisaria mover quatro peças vermelhas, a cor do reino de Fenn Aries, uma para cada quina.
+
+\subsection{Conceitualização do Protótipo}
+
+Dado tal contexto sobre as Caixas Mora Jai, o protótipo a ser desenvolvido será composto por quebra-cabeças onde cada nível possui uma grade de tamanhos variados. Assim como na inspiração, o protótipo também possuirá diversas peças com suas próprias movimentações e mecânicas. No entanto, para resolver o problema no qual pessoas daltônicas teriam ao brincar com Caixas Mora Jai todas as peças do protótipo possuirão, além de uma cor própria, um símbolo para representá-las.
+
+\section{Definição de Escopo}
+
+\subsection{Plataformas e Tecnologias}
+
+Conforme citado anteriormente, o trabalho será feito com a ajuda da ferramenta de desenvolvimento de jogos Godot. Por conta disso, o protótipo final estará disponível para Computadores nos sistemas operacionais: Windows e Linux.
+
+\subsection{Tamanho do Protótipo}
+
+O Produto Mínimo Viável (MVP) deste trabalho terá uma duração curta. Inicialmente, pretende-se que sejam 15 níveis. Sendo divididos em três categorias:
+\begin{itemize}
+	\item 6 Níveis Introdutórios de Peças para apresentação das mecânicas de cada peça;
+	\item 6 Níveis de Aprofundamento de Peças explorando as mecânicas de outras formas;
+	\item 3 Níveis Finais contendo os principais desafios do jogo, contemplando tudo que foi aprendido até então.
+\end{itemize}
+
+No entanto, caso durante o desenvolvimento do protótipo novas ideias de peças ou níveis sejam concebidas, a dimensão do protótipo será devidamente ajustada para abranger o novo conteúdo.
+
+O objetivo de cada nível introdutório do protótipo será, então: descobrir o movimento e mecânica das peças para poder movimentá-las para determinados cantos e poder solucionar o nível.
+
+\subsection{Tema do Protótipo}
+
+O tema principal do protótipo a ser desenvolvido serão animais. Cada peça será representada por um animal diferente como uma forma de indicar qual seria a movimentação daquela peça inspirada em seu animal de forma alegórica. Portanto, como o protótipo será envolto de animais e quebra-cabeças, o nome definido para chamá-lo será: Bicharada. O nome se trata, obviamente, de um trocadilho da palavra ``Bicharada'' que contém a palavra ``Charada'' em si.
+
+\section{Estrutura do Protótipo}
+
+Os tabuleiros do protótipo possuirão diferentes tamanhos para agregar a cada nível e seus respectivos desafios. Desta forma, a seguir, na Figura \ref{fig:tabuleiros-bicharada} pode-se observar quais serão os diferentes tamanhos de tabuleiro que estarão no protótipo.
+
 \begin{figure}[!htbp]
     \centering
-    \caption{Jogo Patrick's Parabox}
-    \includegraphics[scale=0.3]{imagens/patrick-parabox.jpg}
-    \\\textbf{Fonte:} \citeonline{steam_patrick_parabox}
-    \label{fig:imagem-patrick-parabox}
+    \caption{Exemplos de Tabuleiros do Bicharada}
+    \includegraphics[scale=0.12]{imagens/tabuleiros-bicharada.png}
+    \\\textbf{Fonte:} Elaborado pelo Autor
+    \label{fig:tabuleiros-bicharada}
 \end{figure}
 \FloatBarrier
 
-Ao observar a Figura~\ref{fig:imagem-patrick-parabox} é possível esmiuçar a fase da seguinte forma:
+Os níveis do protótipo possuirão os seguintes elementos:
 
 \begin{itemize}
-	\item O jogador controla o quadrado com olhos que pode andar livremente para empurrar os outros dois blocos que existem no plano;
-	\item O quadrado de cor sólida — amarelo, nesse caso — deve ser posicionado no alvo que fica na parte inferior da fase;
-	\item O quadrado que apresenta o próprio interior da fase, se trata, justamente, da própria fase onde o jogador se encontra. É possível que o jogador entre neste quadrado, ou que ele empurre o outro quadrado para o interior do mesmo.
+	\item Um tabuleiro;
+	\item Uma ou mais peças;
+	\item Um ou mais círculos com ícone que representará alguma das peças existentes no nível.
 \end{itemize}
 
-Durante o desenvolvimento de seu jogo, \citeauthorandyear{Traynor2022} utilizou um método para conseguir criar diversas fases diferentes utilizando um mesmo conjunto de mecânicas. Segundo o autor, para situações como esta, o \textit{designer} pode criar uma planilha contendo todas as mecânicas desenvolvidas, dispostas nos eixos X e Y, e descobrir quais são suas sinergias quando usadas em conjunto. Um exemplo desta ideia pode ser visto no Quadro \ref{qua:quadro-sinergia}.
+A seguir, observa-se na Figura \ref{fig:exemplo-nivel-bicharada} um nível contendo:
 
+\begin{itemize}
+	\item Um tabuleiro de tamanho 1 × 3;
+	\item Uma peça de Rato;
+	\item Um círculo com o ícone do Rato.
+\end{itemize}
+
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Exemplo de Nível do Bicharada}
+    \includegraphics[scale=0.4]{imagens/exemplo-nível-bicharada.png}
+    \\\textbf{Fonte:} Elaborado pelo Autor
+    \label{fig:exemplo-nivel-bicharada}
+\end{figure}
 \FloatBarrier
-\begin{quadro}[!htbp]
-	\centering
-	\caption{Exemplo de quadro contendo as mecânicas e suas possíveis sinergias}
-	\includegraphics[scale=0.55]{imagens/quadro-sinergia.png}
-	\\\textbf{Fonte:} Elaborado pelo autor
-	\label{qua:quadro-sinergia}
-\end{quadro}
+
+Desta forma, o objetivo do jogador neste nível seria: movimentar a peça do Rato até o canto direito do tabuleiro, onde há o círculo com ícone do Rato.
+
+Todos os níveis possuirão esta estrutura de movimentar diferentes peças para diferentes células do tabuleiro.
+
+\subsection{Peças do Protótipo}
+
+Definido então o tema, escopo e estrutura do Bicharada, a seguir serão descritas cada uma das peças que existirão no protótipo: 
+
+\subsubsection{Rato}
+
+A peça do Rato será de uma cor acinzentada, contendo o desenho de um rato. Ao ser clicado, o Rato se movimenta sempre para a direita. 
+Caso esteja no final de uma linha, o Rato ignora a parede da direita e volta para o começo da linha.
+Quando o Rato está à esquerda de outra peça, ao ser clicado, o Rato e a peça trocam de posições.
+
+O nível introdutório do Rato, além da forma de como resolvê-lo, pode ser observado na Figura \ref{fig:rascunho-nivel-introdutorio-rato}.
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Rascunho do Nível Introdutório da Peça Rato}
+    \includegraphics[scale=0.15]{imagens/nivel-introdutorio-rato.png}
+    \\\textbf{Fonte:} Elaborado pelo Autor
+    \label{fig:rascunho-nivel-introdutorio-rato}
+\end{figure}
 \FloatBarrier
 
-\citeauthorandyear{Traynor2022} complementa seu guia incentivando aos \textit{designers} que tentem extremos durante o projeto e desenvolvimento de quebra-cabeças: começar fases com soluções impossíveis, mas gradualmente ir lapidando-a para haver uma solução viável; começar fases com soluções possíveis, mas fazer o oposto da anterior, e, assim que chegar em um ponto impossível, remover a última adição.
+Este será o primeiro nível do protótipo, almeja-se a introdução do jogo não só como uma peça com movimentação simples, mas também com um conceito simples: o jogador clica na peça do Rato, e então percebe que o mesmo se movimenta para direita e desta forma consegue resolver o nível facilmente.
 
-\section{Resultados/Impactos}
+\begin{figure}[!htbp]
+    \centering
+    \caption{Rascunho do Nível de Aprofundamento da Peça Rato}
+    \includegraphics[scale=0.18]{imagens/nivel-aprofundamento-rato.png}
+    \\\textbf{Fonte:} Elaborado pelo Autor
+    \label{fig:rascunho-nivel-aprofundamento-rato}
+\end{figure}
+\FloatBarrier
 
-Resultados.
+O nível de aprofundamento do Rato possui como objetivo ensinar ao jogador a mecânica do Rato de ignorar a parede da direita e voltar para o começo da linha.
+Observa-se na Figura \ref{fig:rascunho-nivel-aprofundamento-rato} o planejamento deste nível.
 
+\subsubsection{Baleia}
 
-\section{Orçamento}
+A peça da Baleia possuirá uma cor azulada, contendo o desenho de uma baleia. Ao ser clicada, a Baleia se movimenta sempre para baixo. Quando a Baleia está logo acima de uma peça, ao ser clicada, a Baleia e a peça trocam de posições. 
+Ex: Baleia acima de um Rato. Ao clicar na Baleia, o Rato iria para cima da Baleia.
 
-Orçamento, caso exista.
+\begin{figure}[!htbp]
+    \centering
+    \caption{Rascunho do Nível Introdutório da Peça Baleia}
+    \includegraphics[scale=0.15]{imagens/nivel-introdutorio-baleia.png}
+    \\\textbf{Fonte:} Elaborado pelo Autor
+    \label{fig:rascunho-nivel-introdutorio-baleia}
+\end{figure}
+\FloatBarrier
 
+\begin{figure}[!htbp]
+    \centering
+    \caption{Rascunho do Nível de Aprofundamento da Peça Baleia}
+    \includegraphics[scale=0.18]{imagens/nivel-aprofundamento-baleia.png}
+    \\\textbf{Fonte:} Elaborado pelo Autor
+    \label{fig:rascunho-nivel-aprofundamento-baleia}
+\end{figure}
+\FloatBarrier
+
+Aqui não terminei de escrever ainda.
+
+\subsubsection{Macaco}
+
+A peça do Macaco possuirá uma cor amarronzada, contendo o desenho de um macaco. Ao ser clicado, se movimenta sempre para cima. Quando o Macaco está logo acima de uma peça, ao ser clicado, o Macaco e a peça trocam de posições. 
+Ex: Macaco abaixo de um Rato. Ao clicar no Macaco, o Macaco iria para cima do Rato.
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Rascunho do Nível Introdutório da Peça Macaco}
+    \includegraphics[scale=0.15]{imagens/nivel-introdutorio-macaco.png}
+    \\\textbf{Fonte:} Elaborado pelo Autor
+    \label{fig:rascunho-nivel-introdutorio-macaco}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Rascunho do Nível de Aprofundamento da Peça Macaco}
+    \includegraphics[scale=0.18]{imagens/nivel-aprofundamento-macaco.png}
+    \\\textbf{Fonte:} Elaborado pelo Autor
+    \label{fig:rascunho-nivel-aprofundamento-macaco}
+\end{figure}
+\FloatBarrier
+
+Aqui não terminei de escrever ainda.
+
+\subsubsection{Camaleão}
+
+A peça do Camaleão possuirá uma cor esverdeada, contendo o desenho de um camaleão. Esta peça existirá somente em tabuleiros 3 × 3. Sua movimentação espelha a movimentação da peça que estiver no centro do tabuleiro na posição (2,2). Copia todos os trejeitos da peça que estiver no centro.
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Rascunho do Nível Introdutório da Peça Camaleão}
+    \includegraphics[scale=0.15]{imagens/nivel-introdutorio-camaleao.png}
+    \\\textbf{Fonte:} Elaborado pelo Autor
+    \label{fig:rascunho-nivel-introdutorio-camaleao}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Rascunho do Nível de Aprofundamento da Peça Camaleão}
+    \includegraphics[scale=0.15]{imagens/nivel-aprofundamento-camaleao.png}
+    \\\textbf{Fonte:} Elaborado pelo Autor
+    \label{fig:rascunho-nivel-aprofundamento-camaleao}
+\end{figure}
+\FloatBarrier
+
+Aqui não terminei de escrever ainda.
+
+\subsubsection{Coelho}
+
+A peça do Coelho possuirá uma cor branca, contendo o desenho de um coelho. Ao ser clicado, se multiplica para espaços adjacentes vazios. A adjacência, nesse caso, se trata dos espaços acima, abaixo, a esquerda e a direita. O Coelho não empurra nem troca de lugar com outras peças. Caso não haja espaços adjacentes vazios, o Coelho simplesmente desaparece.
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Rascunho do Nível Introdutório da Peça Coelho}
+    \includegraphics[scale=0.15]{imagens/nivel-introdutorio-coelho.png}
+    \\\textbf{Fonte:} Elaborado pelo Autor
+    \label{fig:rascunho-nivel-introdutorio-coelho}
+\end{figure}
+\FloatBarrier
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Rascunho do Nível de Aprofundamento da Peça Coelho}
+    \includegraphics[scale=0.15]{imagens/nivel-aprofundamento-coelho.png}
+    \\\textbf{Fonte:} Elaborado pelo Autor
+    \label{fig:rascunho-nivel-aprofundamento-coelho}
+\end{figure}
+\FloatBarrier
+
+Aqui não terminei de escrever ainda.
+
+\subsubsection{Toupeira}
+
+A peça da Toupeira possuirá uma cor acinzentada-escura, contendo o desenho de uma toupeira. Ao ser clicada, a Toupeira teleporta para a posição oposta. Caso esteja em uma das quinas, a Toupeira se teleporta para a diagonal contrária. Ex: caso a Toupeira esteja na diagonal superior da esquerda, ao ser clicada, se teleporta para a diagonal inferior da direita. 
+
+Além do teleporte, a Toupeira também troca de lugar com quaisquer peças que estavam na posição na qual a Toupeira irá ao ser clicada.
+Caso a Toupeira esteja no meio do tabuleiro 3 × 3, ela não se teleportará para lugar algum ao ser clicada.
+
+\begin{figure}[!htbp]
+    \centering
+    \caption{Rascunho do Nível Introdutório da Peça Toupeira}
+    \includegraphics[scale=0.15]{imagens/nivel-introdutorio-toupeira.png}
+    \\\textbf{Fonte:} Elaborado pelo Autor
+    \label{fig:rascunho-nivel-introdutorio-toupeira}
+\end{figure}
+\FloatBarrier
+
+Aqui não terminei de escrever ainda. Além disso, não fiz o nível de aprofundamento da toupeira ainda... 
+
+\subsection{Níveis Finais}
+
+não fiz os níveis finais ainda...
 
 \section{Cronograma do Trabalho}
 
@@ -117,162 +287,3 @@ Segue abaixo o cronograma das atividades que serão executadas até a Avaliaçã
 	\item Validação do TCC;
 	\item Defesa do TCC.
 \end{enumerate}
-
-\section{Exemplos do \LaTeX}
-
-Texto da revisão da literatura, dividido em seções e subseções.
-
-Este é um exemplo de como usar figuras. Referência cruzada: Figura~\ref{fig:exemplo}
-
-\FloatBarrier
-\begin{figure}[!htbp]
-	\centering
-	\caption{Exemplo de figura}
-	%scale redimensiona a figura.
-	%1.5 = 150% do tamanho original
-	%1 = 100% do tamanho original
-	%0.20 = 20% do tamanho original
-	\includegraphics[scale=0.4]{imagens/exemploFigura}
-	\\\textbf{Fonte:} Elaborada pelo autor
-	\label{fig:exemplo}
-\end{figure}
-\FloatBarrier
-
-
-Este é um exemplo de como usar tabelas. Referência cruzada: Tabela~\ref{tab:exemplo}
-
-\FloatBarrier
-\begin{table}[!htbp]
-\centering
-\caption{Exemplo de tabela de 2 colunas}
-	\begin{tabular}{ c | c }
-		\hline
-		\textbf{Coluna 1} & \textbf{Coluna 2} \\ \hline
-		Dado 1a           & Dado 2a           \\ \hline
-		Dado 1b           & Dado 2b           \\ \hline
-		Dado 1c           & Dado 2c           \\ \hline
-		Dado 1d           & Dado 2d           \\ \hline
-	\end{tabular}
-	\\ \vspace{0.2cm}
-	\textbf{Fonte:} Elaborada pelo autor
-	\label{tab:exemplo}
-\end{table}
-\FloatBarrier
-
-
-Este é um exemplo de como usar quadros. Referência cruzada: Quadro~\ref{qua:exemplo}
-
-\FloatBarrier
-\begin{quadro}[!htbp]
-	\centering
-	\caption{Exemplo de quadro}
-	\includegraphics[scale=.7]{imagens/exemploQuadro}
-	\\\textbf{Fonte:} Elaborada pelo autor
-	\label{qua:exemplo}
-\end{quadro}
-\FloatBarrier
-
-
-Este é um exemplo de como usar equações. Referência cruzada: Equação~\ref{eq:exemplo}
-
-\begin{equation}
-\sum_{i=1}^{n} i = \frac{n(n+1)}{2}
-\label{eq:exemplo}
-\end{equation}
-
-
-Exemplo de inserção de lista de código fonte:
-
-\lstinputlisting[language=Java]{fontes/ClasseExemplo.java} 
-
-
-
-Este é um exemplo de como inserir texto sem formatação (ambiente verbatim):
-
-\begin{verbatim}
-	Texto sem formatação, como espaçamento igual.
-\end{verbatim}
-
-
-Exemplo de lista de itens:
-
-\begin{itemize}
-	\item \textbf{Item 1:} texto...;
-	\item \textbf{Item 2:} texto...;
-    \begin{itemize}
-            \item \textbf{Subitem:} texto...;
-            \item \textbf{Subitem:} texto...;
-            \item \textbf{Subitem:} texto...;
-        \end{itemize}
-	\item \textbf{Item 3:} texto...;
-	\item \textbf{Item n:} texto....
-\end{itemize}
-
-
-Exemplo de lista numerada:
-
-\begin{enumerate}
-	\item \textbf{Item:} texto...;
-	\item \textbf{Item:} texto...;
-    \begin{enumerate}
-        \item \textbf{Subitem:} texto...;
-        \item \textbf{Subitem:} texto...;
-        \item \textbf{Subitem:} texto...;
-    \end{enumerate}
-	\item \textbf{Item:} texto...;
-	\item \textbf{Item:} texto....
-\end{enumerate}
-
-
-Exemplos de comandos para texto e referências:
-
-\begin{itemize}
-	\item Para iniciar um novo parágrafo, basta deixar uma linha em branco no código fonte;
-	\item Não force o compilador a pular mais de uma linha, pois terá influência negativa na composição do documento;
-	\item Sempre deixe o \LaTeX\ realizar a formatação de parágrafos e posicionamento de elementos;
-	\item Utilização de aspas simples (abertura \verb|`|, fechamento \verb|'|): `Texto entre aspas simples';
-	\item Utilização de aspas duplas (abertura \verb|``|, fechamento \verb|''|): ``Texto entre aspas duplas'';
-	\item Negrito (comando \verb|\textbf|): \textbf{texto em negrito};
-	\item Itálico (comando \verb|\textit|): \textit{texto em itálico};
-	\item Sublinhado (comando \verb|\underline|): \underline{texto sublinhado};
-	\item Negrito e itálico (usar comandos juntos): \textbf{\textit{texto em negrito e itálico}};
-	\item Alterar cor do texto (comando \verb|\textcolor{cor}{texto}|):
-	\begin{itemize}
-		\item Exemplo \verb|\textcolor{red}{texto}|: \textcolor{red}{texto vermelho};
-		\item Exemplo \verb|\textcolor[RGB]{255, 102, 0}|: \textcolor[RGB]{255, 102, 0}{texto laranja};
-		\item Exemplo \verb|\textcolor[HTML]{006AD7}|: \textcolor[HTML]{006AD7}{texto azul};
-	\end{itemize}
-	\item Ambiente matemático inline (comando \verb|$ expressão $|): $s = x^2-2x +1$;
-	\item Referência normal (comando \verb|\cite|):
-	\begin{itemize}
-		\item \cite{Agaisse1995};
-		\item \cite{Abedi2014};
-		\item \cite{BtNomenclature2016};
-	\end{itemize}
-	\item Referência normal com mais de uma obra (comando \verb|\cite|):
-	\begin{itemize}
-		\item \cite{Abedi2014, Agaisse1995};
-		\item \cite{AgapitoTenfen2014, BtNomenclature2016, Nelson2014};
-	\end{itemize}
-	\item Referência nome e ano (comando \verb|\citeauthorandyear|):
-	\begin{itemize}
-		\item \citeauthorandyear{Agaisse1995};
-		\item \citeauthorandyear{Abedi2014};
-		\item \citeauthorandyear{BtNomenclature2016};
-	\end{itemize}
-\end{itemize}
-
-
-Exemplo 1 de citação direta:
-
-\begin{citacao}
-	Os 20 aminoácidos usualmente encontrados como resíduos em proteínas contém um grupo $\alpha$-carboxil, um grupo $\alpha$-amino e um grupo R distinto substituído no átomo de carbono $\alpha$. O átomo de carbono $\alpha$ de todos os aminoácidos, com exceção da glicina, é assimétrico e, portanto, os aminoácidos podem existir em pelo menos duas formas estereoisoméricas. Somente os estereoisômeros L, com uma configuração relacionada à configuração absoluta da molécula de referência L-gliceraldeído, são encontrados em proteínas \cite[p. 81]{Nelson2014}.
-\end{citacao}
-
-Exemplo 2 de citação direta:
-
-\begin{citacao}
-	\textit{These various insecticidal proteins are synthesized during the stationary phase and accumulate in the mother cell as a crystal inclusion which can account for up to 25\% of the dry weight of the sporulated cells. The amount of crystal protein produced by a B. thuringiensis culture in laboratory conditions (about 0.5 mg of protein per ml) and the size of the crystals (24) indicate that each cell has to synthesize $10^6$ to $2 \times 10^6$ $\delta$-endotoxin molecules during the stationary phase to form a crystal} \cite[p. 1]{Agaisse1995}.
-\end{citacao}
-
-Exemplo de nota de rodapé\footnote{Essa é uma nota de rodapé!}.
